@@ -32,8 +32,8 @@ repos:
   - repo: local
     hooks:
       - id: pytest-check
-        stages: [commit]
-        types: [python]
+        stages: [commit ]
+        types: [python ]
         name: pytest-check
         entry: python -m pytest
         language: system
