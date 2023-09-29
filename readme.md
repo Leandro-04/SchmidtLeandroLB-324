@@ -46,4 +46,12 @@ Installation der Hooks:
 Um die in .pre-commit-config.yaml definierten Hooks in Ihrem Git-Repository zu installieren, führen Sie den Befehl pre-commit install im Hauptverzeichnis Ihres Projekts aus. Dadurch wird sichergestellt, dass die Hooks jedes Mal ausgeführt werden, wenn Sie versuchen, einen Commit oder Push durchzuführen (abhängig von der Konfiguration).
 
 ## Aufgabe 4
-Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
+
+Link: schmidtleandro-lb324.azurewebsites.net
+Umgebungsvariablen in Azure setzen
+
+1. Navigieren Sie zum Azure-Portal und öffnen Sie den App Service Ihrer Anwendung.
+2. Gehen Sie zum Abschnitt "Konfiguration".
+3. Unter dem Tab "Anwendungseinstellungen" klicken Sie auf "Hinzufügen".
+4. Geben Sie den Namen und Wert aus Ihrer `.env` Datei ein, z.B. `SECRET_PASSWORD` und den entsprechenden Wert.
+5. Speichern Sie die Änderungen.
